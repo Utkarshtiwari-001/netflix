@@ -1,11 +1,7 @@
-import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-  return (
-    <>
-      <h1 className="bg-amber-100">Hello React</h1>
-    </>
-  );
+  return <Body />;
 }
 
 export default App;
